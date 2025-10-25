@@ -8,3 +8,42 @@
     height: 100%;
     object-fit: cover;
 }
+   
+.text-overlay-paragraph{
+    position: absolute;
+
+}
+
+#logo{
+    position: absolute;
+    background: transparent;
+    height: 200px;
+    left: 20px;
+    top: 1px;
+}
+
+.text-overlay-paragraph{
+    position: absolute;
+    top: 560px;
+    left: 90px;
+    font-size: 25px;
+    color: #FFD369;
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#heading{
+    position: absolute;
+    top: 380px;
+    left: 95px;
+    font-size: 120px;
+    color: #FF8C00;
+    font-family: "Delius", cursive;
+}
+
+.nav-link{
+    position: absolute;
+    font-size: 20px;
+}
