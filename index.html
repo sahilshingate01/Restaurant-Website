@@ -3,32 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Website</title>
+    <title>The Golden Spoon - Fine Dining</title>
+    <author>Sahil Shingate</author>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav id="navbar">
-        <div id="nav-div">
-            <a class="nav-link" href="#">Home</a>
-            <a class="nav-link" href="#">Menu</a>
-            <a class="nav-link" href="#">About</a>
-            <a class="nav-link" href="#">Contact</a>
+
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">The Golden Spoon</a>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact" class="btn-primary">Reservations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Experience Culinary Excellence</h1>
+                <p>Taste the tradition, feel the passion.</p>
+                <a href="#menu" class="btn-primary">View Our Menu</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container about-content">
+                <div class="about-image">
+                    
+                    <img src="image/img1.jpg" alt="Cozy restaurant interior">
+                </div>
+                <div class="about-text">
+                    <h2>Our Story</h2>
+                    <p>Welcome to The Golden Spoon, where our passion for food meets a legacy of hospitality. Founded in 2010, our mission has always been to serve dishes crafted from the freshest local ingredients, all within an atmosphere that feels just like home.</p>
+                    <p>Our chefs bring a world of experience to the table, artfully blending classic techniques with modern flavors. We believe every meal is a celebration, and we're honored to share it with you.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu">
+            <div class="container">
+                <h2 class="section-title">Our Signature Dishes</h2>
+                <div class="menu-grid">
+                    
+                    <div class="menu-item">
+                        
+                        <img src="image/menu1.png" alt="Grilled Salmon">
+                        <div class="menu-item-content">
+                            <div class="menu-item-title">
+                                <h3>Grilled Salmon</h3>
+                                <span class="price">$24</span>
+                            </div>
+                            <p>Perfectly grilled salmon fillet served with asparagus and a lemon-dill sauce.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        
+                        <img src="image/menu2.png" alt="Ribeye Steak">
+                        <div class="menu-item-content">
+                            <div class="menu-item-title">
+                                <h3>Classic Ribeye Steak</h3>
+                                <span class="price">$32</span>
+                            </div>
+                            <p>A 12oz ribeye steak, dry-aged for 28 days and cooked to your preference.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        
+                        <img src="image/menu3.png" alt="Pasta Primavera">
+                        <div class="menu-item-content">
+                            <div class="menu-item-title">
+                                <h3>Pasta Primavera</h3>
+                                <span class="price">$19</span>
+                            </div>
+                            <p>Fresh vegetables and handmade pasta tossed in a light, creamy garlic sauce.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Make a Reservation</h2>
+                <form class="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="tel" name="phone" placeholder="Phone Number">
+                    <input type="date" name="date" required>
+                    <input type="time" name="time" required>
+                    <textarea name="message" rows="4" placeholder="Special Requests"></textarea>
+                    <button type="submit" class="btn-primary">Book Table</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p>123 Culinary Street</p>
+                    <p>Flavor Town, CA 90210</p>
+                    <p>Phone: (555) 123-4567</p>
+                    <p>Email: info@goldspoon.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Hours</h4>
+                    <p>Monday - Thursday: 11am - 10pm</p>
+                    <p>Friday - Saturday: 11am - 11pm</p>
+                    <p>Sunday: 11am - 9pm</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 The Golden Spoon. All Rights Reserved.</p>
+            </div>
         </div>
-    </nav>
-    <div>
-        <img id="mainimg" src="Imgaes/main img res.png" alt="img">
-    </div>
-    <div>
-        <img id="logo" src="Imgaes/logo.png" alt="logo">
-    </div>
-    <div>
-        <h1 id="heading">Veyne</h1>
-    </div>
-    <div class="text-overlay-paragraph">
-        <p>Discover authentic Indian flavors, crafted with the finest <br> ingredients and bold spices. Every bite celebrates’s <br> rich culinary heritage.</p>
-    </div>
+    </footer>
+
 </body>
 </html>
