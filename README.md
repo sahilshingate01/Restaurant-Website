@@ -7,6 +7,13 @@ This project showcases a clean layout, easy navigation, and a focus on food pres
 
 ---
 
+## 🌐 Live Demo
+
+🚀 **Check out the live website here:**  
+👉 [The Gourmet Spot — Live on Vercel](https://restaurant-website-delta-eight.vercel.app/)
+
+---
+
 ## 🌟 Features
 
 - **Hero Section** – Welcoming banner with restaurant tagline  
